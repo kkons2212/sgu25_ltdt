@@ -3,6 +3,7 @@
 using namespace std;
 
 #define FI "MATRANKE.INP"
+#define FO "MATRANKE.OUT"
 
 int n;
 vector<vector<int>> a;
@@ -37,6 +38,7 @@ void solve(){
 
 int main() {
     // freopen(FI, "r", stdin);
+    // freopen(FO, "w", stdout);
     solve();
     return 0;
 }
