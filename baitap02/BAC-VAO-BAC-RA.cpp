@@ -13,6 +13,11 @@ vector<int> bacra;
 void nhap ()
 {   fi.open(FI);
     fi>>n; // nhap so dinh
+    if(n>1000)
+    {
+        cerr<<"vuot qua gioi han dinh cho phep"<<endl;
+        exit(1);
+    }
     a.resize(n);
     bacvao.resize(n);
     bacra.resize(n);

@@ -10,6 +10,11 @@ vector<int>bac;
 void nhap()
 {
     cin>>n;
+     if(n>1000)
+    {
+        cerr<<"vuot qua gioi han dinh cho phep"<<endl;
+        exit(1);
+    }
     a.resize(n);
     for(int i=0;i<n;i++)
     {
