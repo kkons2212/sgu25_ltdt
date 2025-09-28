@@ -5,7 +5,7 @@ using namespace std;
 #define FI "LIEN-THONGDFS.INP"
 #define FO "LIEN-THONGDFS.OUT"
 
-vector<int> danhsach[1000];
+vector<int> danhsach[10000];
 vector<bool> tham;
 vector<int> ketqua; // lưu các đỉnh đã duyệt
 int n, s; // n: số đỉnh, s: đỉnh bắt đầu
