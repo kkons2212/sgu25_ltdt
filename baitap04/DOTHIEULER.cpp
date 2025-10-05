@@ -49,7 +49,8 @@ void kiemtraeuler(int batdau)
 
     while (!st.empty()) {
         int u = st.top();
-        while (vitri[u] < (int)temp[u].size() && temp[u][vitri[u]] == -1) vitri[u]++;
+        while (vitri[u] < (int)temp[u].size() && temp[u][vitri[u]] == -1) 
+        vitri[u]++;
         if (vitri[u] == (int)temp[u].size()) {
             duongdi.push_back(u);
             st.pop();
