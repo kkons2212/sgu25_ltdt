@@ -2,7 +2,7 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-int INF=10000;
+const int INF=100000;
 int main()
 {   
     int n,m,s,t; //dinh, canh bat dau ,ket thuc
