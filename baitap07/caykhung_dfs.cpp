@@ -24,7 +24,7 @@ void doc()
 }
 void duyet_dfs(int u)
 {
-    visited.resize(n+1,false);
+
     visited[u]=true;
     for( auto &v: danhsachke[u])
     {
@@ -49,6 +49,7 @@ int main()
 {  
     freopen("caykhung_dfs.inp","r",stdin);
    doc();
+   visited.resize(n+1,false);
    duyet_dfs(1);
    in();
    return 0;
